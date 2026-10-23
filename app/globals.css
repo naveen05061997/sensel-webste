@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Fractional opacity hover utilities for the dark glass navbar */
+  .hover\:bg-white\/8:hover  { background-color: rgba(255,255,255,0.08); }
+  .bg-white\/4               { background-color: rgba(255,255,255,0.04); }
+  .bg-white\/6               { background-color: rgba(255,255,255,0.06); }
+  .bg-white\/8               { background-color: rgba(255,255,255,0.08); }
+  .hover\:bg-white\/6:hover  { background-color: rgba(255,255,255,0.06); }
+  .border-white\/8           { border-color: rgba(255,255,255,0.08); }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Brand Primary: Blue (#2563eb) */
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+
+    /* Brand Accent/Secondary: Orange (#f97316) */
+    --secondary: 24.6 95% 53.1%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    /* Same as secondary for accent highlights */
+    --accent: 24.6 95% 53.1%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

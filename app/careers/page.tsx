@@ -71,7 +71,7 @@ export default function CareersPage() {
       {/* ═══════════════════════════════════════════════════════════════
           HERO SECTION (DARK ENTERPRISE TECH)
           ═══════════════════════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden bg-[#070b14] text-white pt-28 sm:pt-32 lg:pt-36 pb-14 sm:pb-20 border-b border-slate-800">
+      <section className="relative overflow-hidden bg-[#070b14] text-white min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-800">
         
         {/* Subtle grid pattern & glowing mesh */}
         <div 
@@ -84,10 +84,10 @@ export default function CareersPage() {
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/15 rounded-full blur-[130px] pointer-events-none -z-10" />
         <div className="absolute bottom-0 right-10 w-[350px] h-[350px] bg-blue-600/10 rounded-full blur-[100px] pointer-events-none -z-10" />
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
           
           {/* Breadcrumb Navigation */}
-          <div className="flex items-center gap-1.5 sm:gap-2 text-xs text-slate-400 mb-6">
+          <div className="flex items-center gap-1.5 sm:gap-2 text-xs text-slate-400 mb-4">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <ChevronRight className="h-3 w-3 text-slate-600" />
             <span className="text-primary font-semibold">Careers</span>
@@ -95,7 +95,7 @@ export default function CareersPage() {
 
           <div className="max-w-3xl">
             {/* Badges */}
-            <div className="flex flex-wrap items-center gap-2 mb-4">
+            <div className="flex flex-wrap items-center gap-2 mb-3">
               <span className="inline-flex items-center gap-1.5 rounded-full border border-primary/40 bg-primary/10 px-3 py-1 text-xs font-bold text-primary tracking-wide uppercase">
                 <Users className="h-3.5 w-3.5" />
                 Life at Sensel Telematics
@@ -107,7 +107,7 @@ export default function CareersPage() {
             </div>
 
             {/* Headline */}
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1] mb-5">
+            <h1 className="text-3xl sm:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold tracking-tight text-white leading-[1.12] mb-3.5 sm:mb-4">
               Build the Future of <br className="hidden sm:inline" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-400 to-emerald-400">
                 Intelligent Enterprise IoT
@@ -115,7 +115,7 @@ export default function CareersPage() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal mb-8 max-w-2xl">
+            <p className="text-sm sm:text-base lg:text-lg text-slate-300 leading-relaxed font-normal mb-6 max-w-2xl">
               We are a team of embedded engineers, hardware designers, and cloud architects pioneering mission-critical telematics infrastructure that powers India&apos;s most vital supply chains and heavy industries.
             </p>
 

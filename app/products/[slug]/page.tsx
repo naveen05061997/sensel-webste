@@ -23,7 +23,7 @@ export default function ProductDetail({ params }: { params: { slug: string } }) 
   return (
     <div className="min-h-screen bg-white pb-24">
       {/* Breadcrumbs */}
-      <div className="border-b border-border bg-slate-50">
+      <div className="border-b border-border bg-slate-50 pt-24 sm:pt-28">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center text-sm text-slate-500">
             <Link href="/" className="hover:text-primary transition-colors">Home</Link>

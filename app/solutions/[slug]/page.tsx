@@ -181,7 +181,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
       {/* Hero Section */}
       {params.slug === "work-hour-monitor" || params.slug === "work-hour-meter" ? (
         /* Enhanced Premium Hero Section for Work Hour Meter */
-        <section className="relative overflow-hidden bg-[#070b14] text-white pt-26 pb-16 sm:pt-28 sm:pb-18 md:pt-32 md:pb-20 lg:pt-32 lg:pb-24 border-b border-slate-800/60">
+        <section className="relative overflow-hidden bg-[#070b14] text-white min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-800/60">
           {/* Subtle grid pattern backdrop */}
           <div 
             className="absolute inset-0 opacity-[0.06] pointer-events-none"
@@ -213,9 +213,9 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
             }
           `}</style>
 
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
             {/* Back to Solutions navigation link */}
-            <div className="mb-4 sm:mb-6">
+            <div className="mb-3 sm:mb-4">
               <Link 
                 href="/solutions" 
                 className="inline-flex items-center text-sm font-medium text-slate-400 hover:text-white transition-colors group"
@@ -236,7 +236,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
                 </div>
 
                 {/* Main Heading */}
-                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
+                <h1 className="text-3xl sm:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
                   {solution.title}
                 </h1>
 
@@ -340,7 +340,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
         </section>
       ) : params.slug === "rechargeable-asset-tracker" ? (
         /* Dedicated Hero Section for Rechargeable Asset Tracker */
-        <section className="relative overflow-hidden bg-[#070b14] text-white pt-26 pb-16 sm:pt-28 sm:pb-18 md:pt-32 md:pb-20 lg:pt-32 lg:pb-24 border-b border-slate-800/60">
+        <section className="relative overflow-hidden bg-[#070b14] text-white min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-800/60">
           {/* Subtle grid pattern backdrop */}
           <div 
             className="absolute inset-0 opacity-[0.06] pointer-events-none"
@@ -355,9 +355,9 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
           <div className="absolute top-1/4 right-0 w-[450px] h-[450px] bg-emerald-500/10 rounded-full blur-[150px] pointer-events-none" />
           <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-primary/15 rounded-full blur-[120px] pointer-events-none" />
 
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
             {/* Back to Solutions navigation link */}
-            <div className="mb-4 sm:mb-6">
+            <div className="mb-3 sm:mb-4">
               <Link 
                 href="/solutions" 
                 className="inline-flex items-center text-sm font-medium text-slate-400 hover:text-white transition-colors group"
@@ -378,7 +378,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
                 </div>
 
                 {/* Main Heading */}
-                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
+                <h1 className="text-3xl sm:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
                   {solution.title}
                 </h1>
 
@@ -472,7 +472,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
         </section>
       ) : params.slug === "solar-powered-asset-tracker" ? (
         /* Dedicated Two-Column Hero Section for Solar Powered Asset Tracker */
-        <section className="relative overflow-hidden bg-[#070b14] text-white pt-24 pb-14 sm:pt-26 sm:pb-16 md:pt-28 md:pb-18 lg:pt-28 lg:pb-20 border-b border-slate-800/60">
+        <section className="relative overflow-hidden bg-[#070b14] text-white min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-800/60">
           {/* Subtle grid pattern backdrop */}
           <div 
             className="absolute inset-0 opacity-[0.06] pointer-events-none"
@@ -487,9 +487,9 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
           <div className="absolute top-1/4 right-0 w-[450px] h-[450px] bg-yellow-500/10 rounded-full blur-[150px] pointer-events-none" />
           <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-primary/15 rounded-full blur-[120px] pointer-events-none" />
 
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
             {/* Back to Solutions navigation link */}
-            <div className="mb-4 sm:mb-5">
+            <div className="mb-3 sm:mb-4">
               <Link 
                 href="/solutions" 
                 className="inline-flex items-center text-sm font-medium text-slate-400 hover:text-white transition-colors group"
@@ -510,7 +510,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
                 </div>
 
                 {/* Main Heading */}
-                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
+                <h1 className="text-3xl sm:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
                   {solution.title}
                 </h1>
 
@@ -604,7 +604,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
         </section>
       ) : params.slug === "hazardous-cargo" ? (
         /* Dedicated Hero Section for Hazardous Cargo */
-        <section className="relative overflow-hidden bg-[#070b14] text-white pt-26 pb-16 sm:pt-28 sm:pb-18 md:pt-32 md:pb-20 lg:pt-32 lg:pb-24 border-b border-slate-800/60">
+        <section className="relative overflow-hidden bg-[#070b14] text-white min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-800/60">
           {/* Subtle grid pattern backdrop */}
           <div 
             className="absolute inset-0 opacity-[0.06] pointer-events-none"
@@ -619,9 +619,9 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
           <div className="absolute top-1/4 right-0 w-[450px] h-[450px] bg-red-500/10 rounded-full blur-[150px] pointer-events-none" />
           <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-primary/15 rounded-full blur-[120px] pointer-events-none" />
 
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
             {/* Back to Solutions navigation link */}
-            <div className="mb-4 sm:mb-6">
+            <div className="mb-3 sm:mb-4">
               <Link 
                 href="/solutions" 
                 className="inline-flex items-center text-sm font-medium text-slate-400 hover:text-white transition-colors group"
@@ -644,7 +644,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
                 </div>
 
                 {/* Main Heading */}
-                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
+                <h1 className="text-3xl sm:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
                   {solution.title}
                 </h1>
 
@@ -716,7 +716,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
         </section>
       ) : params.slug === "cement-mining" ? (
         /* Dedicated Hero Section for Cement & Mining */
-        <section className="relative overflow-hidden bg-[#070b14] text-white pt-26 pb-16 sm:pt-28 sm:pb-18 md:pt-32 md:pb-20 lg:pt-32 lg:pb-24 border-b border-slate-800/60">
+        <section className="relative overflow-hidden bg-[#070b14] text-white min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-800/60">
           {/* Subtle grid pattern backdrop */}
           <div 
             className="absolute inset-0 opacity-[0.06] pointer-events-none"
@@ -731,9 +731,9 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
           <div className="absolute top-1/4 right-0 w-[450px] h-[450px] bg-yellow-500/15 rounded-full blur-[150px] pointer-events-none" />
           <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-primary/15 rounded-full blur-[120px] pointer-events-none" />
 
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
             {/* Back to Solutions navigation link */}
-            <div className="mb-4 sm:mb-6">
+            <div className="mb-3 sm:mb-4">
               <Link 
                 href="/solutions" 
                 className="inline-flex items-center text-sm font-medium text-slate-400 hover:text-white transition-colors group"
@@ -754,7 +754,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
                 </div>
 
                 {/* Main Heading */}
-                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
+                <h1 className="text-3xl sm:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
                   {solution.title}
                 </h1>
 
@@ -848,9 +848,9 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
         </section>
       ) : (
         /* Preserved Standard Hero Section for other solutions */
-        <section className="pt-24 pb-12 sm:pt-26 sm:pb-14 md:pt-24 md:pb-14 lg:pt-24 lg:pb-16 bg-[#070b14] text-white overflow-hidden relative border-b border-slate-800/60">
+        <section className="relative overflow-hidden bg-[#070b14] text-white min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-800/60">
           <div className="absolute inset-0 bg-primary/20 blur-3xl opacity-50"></div>
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
             <Link href="/solutions" className="inline-flex items-center text-sm font-medium text-slate-400 hover:text-white mb-6 transition-colors group">
               <ArrowLeft className="h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform" />
               Back to Solutions

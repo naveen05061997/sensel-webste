@@ -52,9 +52,9 @@ export default function AboutUsPage() {
   return (
     <div className="bg-white">
       {/* ═══════════════════════════════════════════════════════════════
-          HERO & OUR MISSION SECTION
+          HERO SECTION
           ═══════════════════════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden pt-28 sm:pt-32 md:pt-36 pb-16 sm:pb-20 lg:pb-24 border-b border-slate-100 bg-gradient-to-b from-slate-50/80 via-white to-white">
+      <section className="relative overflow-hidden min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-100 bg-gradient-to-b from-slate-50/80 via-white to-white">
         {/* Subtle grid pattern background */}
         <div 
           className="absolute inset-0 opacity-[0.035] pointer-events-none"
@@ -67,24 +67,24 @@ export default function AboutUsPage() {
         {/* Ambient lighting glows */}
         <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-gradient-to-r from-blue-400/10 via-amber-400/10 to-primary/10 rounded-full blur-[140px] pointer-events-none -z-10" />
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
           {/* Section Badge & Main Title */}
-          <div className="text-center max-w-4xl mx-auto mb-14 sm:mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-200/80 text-primary text-xs sm:text-sm font-bold uppercase tracking-wider mb-5 shadow-2xs">
+          <div className="text-center max-w-4xl mx-auto">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-200/80 text-primary text-xs sm:text-sm font-bold uppercase tracking-wider mb-4 sm:mb-5 shadow-2xs">
               <Compass className="w-4 h-4 text-primary" />
               Our Purpose &amp; Core Mission
             </div>
 
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-slate-900 tracking-tight leading-[1.12] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-black text-slate-900 tracking-tight leading-[1.12] mb-4 sm:mb-6">
               Engineering a Safer, Smarter &amp; More Accountable Industrial World.
             </h1>
 
-            <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-normal">
+            <p className="text-sm sm:text-base lg:text-lg xl:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-normal mb-6">
               Building and deploying <strong className="font-semibold text-slate-900">reliable, safe, and feature-rich IoT telematics</strong> of the highest global standards — safeguarding mission-critical assets, protecting lives on the road, and delivering undeniable return on investment for our enterprise partners.
             </p>
 
             {/* Quick Trust Badges Strip */}
-            <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3.5 pt-6 text-xs sm:text-sm font-semibold text-slate-700">
+            <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3.5 text-xs sm:text-sm font-semibold text-slate-700">
               <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white border border-slate-200 shadow-2xs">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                 15+ Years Pioneering IoT
@@ -103,7 +103,14 @@ export default function AboutUsPage() {
               </span>
             </div>
           </div>
+        </div>
+      </section>
 
+      {/* ═══════════════════════════════════════════════════════════════
+          MISSION PILLARS & VISION SECTION
+          ═══════════════════════════════════════════════════════════════ */}
+      <section className="py-16 sm:py-20 lg:py-24 bg-white border-b border-slate-100">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* 3 Core Mission Pillars Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto mb-14 sm:mb-16">
             {missionPillars.map((pillar, idx) => {

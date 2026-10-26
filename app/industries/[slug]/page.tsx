@@ -572,7 +572,7 @@ export default function IndustryDetailPage({ params }: { params: { slug: string 
       {/* ═══════════════════════════════════════════════════════════════
           HERO SECTION (DARK ENTERPRISE TECH - BALANCED SPACIOUS FIT)
           ═══════════════════════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden pt-20 sm:pt-24 lg:pt-26 pb-8 sm:pb-10 border-b border-slate-800">
+      <section className="relative overflow-hidden min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-800">
         
         {/* Subtle grid pattern & glowing mesh */}
         <div 
@@ -585,7 +585,7 @@ export default function IndustryDetailPage({ params }: { params: { slug: string 
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/15 rounded-full blur-[130px] pointer-events-none -z-10" />
         <div className="absolute bottom-0 right-10 w-[350px] h-[350px] bg-blue-600/10 rounded-full blur-[110px] pointer-events-none -z-10" />
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
 
           {/* Integrated Breadcrumbs Header */}
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-slate-400 pb-2.5 mb-4 sm:mb-5 border-b border-slate-800/80">

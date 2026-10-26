@@ -226,7 +226,7 @@ export default function Ast4sliProductPage() {
       {/* ═══════════════════════════════════════════════════════════════
           HERO SECTION (DARK ENTERPRISE TECH - COMPACT FULL-SCREEN FIT)
           ═══════════════════════════════════════════════════════════════ */}
-      <section className="relative overflow-hidden bg-[#070b14] text-white pt-20 sm:pt-22 lg:pt-20 pb-4 sm:pb-6 lg:pb-6 border-b border-slate-800">
+      <section className="relative overflow-hidden bg-[#070b14] text-white min-h-[100dvh] lg:h-screen lg:min-h-[640px] flex items-center justify-center pt-24 pb-8 sm:pt-26 sm:pb-10 lg:pt-20 lg:pb-6 border-b border-slate-800">
         
         {/* Subtle grid pattern & glowing amber/cyan mesh */}
         <div 
@@ -239,7 +239,7 @@ export default function Ast4sliProductPage() {
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] bg-amber-500/15 rounded-full blur-[120px] pointer-events-none -z-10" />
         <div className="absolute bottom-0 right-10 w-[300px] h-[300px] bg-emerald-500/10 rounded-full blur-[100px] pointer-events-none -z-10" />
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
 
           {/* Integrated Breadcrumbs Header */}
           <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400 pb-1.5 mb-2.5 sm:mb-3 border-b border-slate-800/80">

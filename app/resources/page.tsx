@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function ResourcesHubPage() {
   return (
-    <div className="min-h-screen bg-slate-50 py-20">
+    <div className="min-h-screen bg-slate-50 pt-28 sm:pt-32 pb-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Resource Center</h1>

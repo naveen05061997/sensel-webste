@@ -75,7 +75,7 @@ export default function AboutSection({ showButton = true, className }: AboutSect
 
               {/* Actual dashboard image */}
               <img
-                src="/sensel-dashboard.png"
+                src="/sensel-dashboard.PNG"
                 alt="Sensel Telematics Fleet Dashboard — live map and telemetry logs"
                 className="w-full h-auto block"
               />

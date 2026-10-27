@@ -7,9 +7,9 @@ import { Sparkles, CheckCircle2, ChevronLeft, ChevronRight } from "lucide-react"
 export default function HazardousCargoApplications() {
   // State for Item 2 Carousel (image12, image13, image14)
   const carouselImages = [
-    { src: "/solution/image12.png", fallback: "/solution/image12.jpg", label: "Alco-meter Driver Pre-Trip Check" },
-    { src: "/solution/image13.png", fallback: "/solution/image13.jpg", label: "SmartDriver Digital Inspection Checklist" },
-    { src: "/solution/image14.png", fallback: "/solution/image14.jpg", label: "Voice Alerts & Violation Coaching" },
+    { src: "/solution/image12.png", fallback: "/solution/image12.png", label: "Alco-meter Driver Pre-Trip Check" },
+    { src: "/solution/image13.png", fallback: "/solution/image13.png", label: "SmartDriver Digital Inspection Checklist" },
+    { src: "/solution/image14.png", fallback: "/solution/image14.png", label: "Voice Alerts & Violation Coaching" },
   ];
 
   const [activeSlide, setActiveSlide] = useState(0);
@@ -52,7 +52,7 @@ export default function HazardousCargoApplications() {
           <div className="lg:col-span-6">
             <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-md border border-slate-200/90 bg-slate-900 group">
               <Image
-                src="/solution/image11.png"
+                src="/solution/image11.PNG"
                 alt="Journey Risk Management (JRM) with Reference Routes"
                 fill
                 unoptimized

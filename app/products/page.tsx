@@ -94,7 +94,7 @@ const hardwareProducts = [
     tagline: "6–30V Multi-Sensor Telematics",
     category: "Commercial & Hazardous Cargo",
     badge: "Fleet-Smart™ Hardware",
-    image: "/solution/VTX10C.png",
+    image: "/solution/VTX10c.png",
     dimensions: "85 × 50 × 15 mm • 80 g",
     description: "High-precision commercial vehicle telematics unit for hazardous goods carriers and fleets. Features Panic SOS, Fuel, Temperature, Humidity & A/C sensor interfaces.",
     datasheetUrl: "/solution/VTX10c.pdf",

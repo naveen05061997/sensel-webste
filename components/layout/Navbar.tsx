@@ -65,8 +65,8 @@ export default function Navbar() {
     { title: "Mining",       href: "/industries/mining",       icon: <Factory   className="h-4 w-4" /> },
   ];
 
-  /* ── Pill classes: transparent at top, solid on scroll or hover ── */
-  const isSolid = scrolled || mobileOpen || solutionsOpen || productsOpen || headerHovered;
+  /* ── Pill classes: transparent at top, solid on scroll, hover, or non-home pages ── */
+  const isSolid = pathname !== "/" || scrolled || mobileOpen || solutionsOpen || productsOpen || headerHovered;
 
   const pillBase =
     "transition-all duration-300 ease-in-out " +

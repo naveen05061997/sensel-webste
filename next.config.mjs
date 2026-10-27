@@ -31,6 +31,13 @@ const nextConfig = {
       { source: '/privacy-policy-sensel', destination: '/privacy-policy', permanent: true },
     ];
   },
+  async rewrites() {
+    return [
+      { source: '/sensel-dashboard.png', destination: '/sensel-dashboard.PNG' },
+      { source: '/solution/image11.png', destination: '/solution/image11.PNG' },
+      { source: '/solution/VTX10C.png', destination: '/solution/VTX10c.png' },
+    ];
+  },
 };
 
 export default nextConfig;

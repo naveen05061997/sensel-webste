@@ -386,7 +386,7 @@ export default function Vtx10cProductPage() {
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(16,185,129,0.14),transparent_70%)] pointer-events-none" />
                     <div className="relative w-full max-w-[170px] sm:max-w-[190px] aspect-[16/10]">
                       <Image
-                        src="/solution/VTX10C.png"
+                        src="/solution/VTX10c.png"
                         alt="Sensel Fleet Smart VTX 10 C Hardware Telematics Unit"
                         fill
                         priority

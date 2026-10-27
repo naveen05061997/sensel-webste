@@ -1500,7 +1500,7 @@ export default function SolutionDetail({ params }: { params: { slug: string } })
                     <div className="bg-slate-50 rounded-xl p-2 border border-slate-200/80 shadow-2xs flex items-center justify-center max-w-[185px] mx-auto">
                       <div className="relative aspect-[4/3] w-full max-w-[145px] h-[84px]">
                         <Image
-                          src="/solution/VTX10C.png"
+                          src="/solution/VTX10c.png"
                           alt="SENSEL FLEET SMART VTX 10 C"
                           fill
                           className="object-contain"

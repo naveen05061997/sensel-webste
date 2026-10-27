@@ -341,7 +341,7 @@ const industriesDatabase: Record<string, IndustryDetailData> = {
       name: "VTX 10 C Hazardous Cargo Unit",
       model: "VTX 10 C",
       tagline: "6–30V DC • Panic SOS • Fuel & Temp Ports • 128 MB Memory",
-      image: "/solution/VTX10C.png",
+      image: "/solution/VTX10c.png",
       productHref: "/products/vtx10c",
       datasheetUrl: "/solution/VTX10c.pdf",
       specs: [
@@ -493,7 +493,7 @@ const industriesDatabase: Record<string, IndustryDetailData> = {
       name: "VTX 10 C Commercial Telematics Unit",
       model: "VTX 10 C",
       tagline: "High-precision GPS L1 • Multi-sensor interface • 128MB Memory",
-      image: "/solution/VTX10C.png",
+      image: "/solution/VTX10c.png",
       productHref: "/products/vtx10c",
       datasheetUrl: "/solution/VTX10c.pdf",
       specs: [
